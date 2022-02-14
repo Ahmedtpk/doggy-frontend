@@ -9,6 +9,7 @@ function App() {
       <h1>Who let the dogs out?</h1>
     <Switch>
       <Route path='/' exact component={Home}></Route>
+      <Route path='/' exact component={Login}></Route>
     </Switch>
     </HashRouter>
   );
